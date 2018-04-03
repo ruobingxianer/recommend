@@ -10,12 +10,12 @@ db = MySQLdb.connect("localhost", "root", "whx19911105", "ipatron")
 cursor = db.cursor()
 
 # 使用execute方法执行SQL语句
-cursor.execute("SELECT length(ckey) keylen, count(*)FROM ipatron.bibli group by length(ckey)")
+cursor.execute("SELECT item_id,l.ckey FROM ipatron.userlog l, ipatron.bibli b where l.ckey=b.ckey and b.title='' group by item_id,l.ckey")
 
 # 使用 fetchall() 方法获取所有数据
 data = cursor.fetchall()
-for row in data:
-    print "length:", row[0], "count", row[1]
+
+print len(data)
 
 # 关闭数据库连接
 db.close()

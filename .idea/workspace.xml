@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3730fe4b-f446-43f9-bb14-c9327cef0c4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/communicateMysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recommend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recommend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloGet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communicateMysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/communicateMysql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,11 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communicateMysql.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="communicateMysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/communicateMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="53">
+              <caret line="12" column="136" selection-start-line="12" selection-start-column="136" selection-end-line="12" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloGet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HelloGet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +105,7 @@
         <option value="$PROJECT_DIR$/HelloNumpy.py" />
         <option value="$PROJECT_DIR$/venv/communcateMySql.py" />
         <option value="$PROJECT_DIR$/communicateMysql.py" />
+        <option value="$PROJECT_DIR$/HelloGet.py" />
       </list>
     </option>
   </component>
@@ -149,7 +161,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.communicateMysql">
+  <component name="RunManager" selected="Python.HelloGet">
+    <configuration name="HelloGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recommend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloGet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="HelloNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,9 +262,11 @@
       <item itemvalue="Python.HelloTensorFlow" />
       <item itemvalue="Python.HelloNumpy" />
       <item itemvalue="Python.communicateMysql" />
+      <item itemvalue="Python.HelloGet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HelloGet" />
         <item itemvalue="Python.communicateMysql" />
         <item itemvalue="Python.HelloWorld" />
         <item itemvalue="Python.HelloNumpy" />
@@ -271,10 +304,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="270" height="512" id="Documentation" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4640523" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4640523" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.50980395" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3137255" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2584814" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
@@ -354,8 +387,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/communicateMysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="53">
+          <caret line="12" column="136" selection-start-line="12" selection-start-column="136" selection-end-line="12" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloGet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
