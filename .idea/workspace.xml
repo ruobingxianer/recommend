@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3730fe4b-f446-43f9-bb14-c9327cef0c4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/HelloTesting/HelloGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloTesting/HelloGet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HelloTesting/communicateMysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloTesting/communicateMysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloTesting/recordTitle.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloTesting/recordTitle.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
     <SUITE FILE_PATH="coverage/recommend$HelloIO.coverage" NAME="HelloIO Coverage Results" MODIFIED="1522804821976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HelloTesting" />
     <SUITE FILE_PATH="coverage/recommend$HelloNumpy.coverage" NAME="HelloNumpy Coverage Results" MODIFIED="1522638884635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/recommend$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1522745619528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/recommend$recordTitle.coverage" NAME="recordTitle Coverage Results" MODIFIED="1522809987314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HelloTesting" />
-    <SUITE FILE_PATH="coverage/recommend$communicateMysql.coverage" NAME="communicateMysql Coverage Results" MODIFIED="1522809031292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HelloTesting" />
+    <SUITE FILE_PATH="coverage/recommend$recordTitle.coverage" NAME="recordTitle Coverage Results" MODIFIED="1522824135743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HelloTesting" />
+    <SUITE FILE_PATH="coverage/recommend$communicateMysql.coverage" NAME="communicateMysql Coverage Results" MODIFIED="1522826177716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HelloTesting" />
     <SUITE FILE_PATH="coverage/recommend$HelloTensorFlow.coverage" NAME="HelloTensorFlow Coverage Results" MODIFIED="1522398604493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -38,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="recordTitle.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recordTitle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloTesting/recordTitle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="158">
+              <caret line="46" column="114" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="114" />
               <folding>
                 <element signature="e#16#30#0" expanded="true" />
               </folding>
@@ -71,8 +70,11 @@
       <file leaf-file-name="HelloGet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloTesting/HelloGet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="125">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,17 +82,20 @@
       <file leaf-file-name="HelloTensorFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloTesting/HelloTensorFlow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communicateMysql.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="communicateMysql.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloTesting/communicateMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#43#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/HelloTesting/HelloIO.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -134,9 +139,9 @@
         <option value="$PROJECT_DIR$/HelloTesting/testBreak" />
         <option value="$PROJECT_DIR$/HelloTesting/testBreak.py" />
         <option value="$PROJECT_DIR$/HelloTesting/HelloIO.py" />
-        <option value="$PROJECT_DIR$/HelloTesting/HelloGet.py" />
-        <option value="$PROJECT_DIR$/HelloTesting/communicateMysql.py" />
         <option value="$PROJECT_DIR$/HelloTesting/recordTitle.py" />
+        <option value="$PROJECT_DIR$/HelloTesting/communicateMysql.py" />
+        <option value="$PROJECT_DIR$/HelloTesting/HelloGet.py" />
       </list>
     </option>
   </component>
@@ -165,11 +170,6 @@
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloTesting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.recordTitle">
+  <component name="RunManager" selected="Python.HelloGet">
     <configuration name="HelloGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,9 +306,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.recordTitle" />
-        <item itemvalue="Python.communicateMysql" />
         <item itemvalue="Python.HelloGet" />
+        <item itemvalue="Python.communicateMysql" />
+        <item itemvalue="Python.recordTitle" />
         <item itemvalue="Python.HelloIO" />
         <item itemvalue="Python.testBreak" />
       </list>
@@ -338,16 +338,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="270" height="512" id="Documentation" order="5" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38235295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32189542" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3120915" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20597738" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
@@ -401,31 +402,10 @@
     <entry file="file://$PROJECT_DIR$/HelloTesting/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloTensorFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloTesting/testBreak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloTesting/communicateMysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -436,19 +416,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloGet.py">
+    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloTensorFlow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloTesting/recordTitle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="158">
+          <caret line="46" column="114" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="114" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloTesting/HelloGet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloTesting/communicateMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#43#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
