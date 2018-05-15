@@ -3,14 +3,13 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 INPUT_NODE = 784
 OUTPUT_NODE = 10
-
 LAYER1_NODE = 500
-BATCH_SIZE = 100
 
+BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.8
 LEARNING_RATE_DECAY = 0.99
 REGULARIZATION_RATE = 0.0001
-TRAINING_STEPS = 30000
+TRAINING_STEPS = 4000
 MOVING_AVERAGE_DECAY = 0.99
 
 
@@ -61,6 +60,8 @@ def train(mnist):
 
     correct_prediction = tf.equal(tf.argmax(average_y, 1), tf.argmax(y_, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+
+    saver = tf.train.Saver()
     with tf.Session() as sess:
         init_op = tf.global_variables_initializer()
         sess.run(init_op)
@@ -70,12 +71,14 @@ def train(mnist):
         for i in range(TRAINING_STEPS):
             if i % 100 == 0:
                 validate_acc = sess.run(accuracy, feed_dict=validate_feed)
-                print i, validate_acc
+                test_acc = sess.run(accuracy, feed_dict=test_feed)
+                print i, validate_acc,test_acc
             xs, ys = mnist.train.next_batch(BATCH_SIZE)
             sess.run(train_op, feed_dict={x: xs, y_: ys})
 
         test_acc = sess.run(accuracy, feed_dict=test_feed)
         print "end",TRAINING_STEPS, test_acc
+        saver.save(sess,"model/model.ckpt")
 
 
 def main(argv=None):
