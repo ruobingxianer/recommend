@@ -23,7 +23,7 @@ def generate_data(seq):
 
     for i in range(len(seq) - TIMESTEPS):
         X.append([seq[i:i + TIMESTEPS]])
-        y.append([seq[i:i + TIMESTEPS]])
+        y.append([seq[i + TIMESTEPS]])
 
     return np.array(X, dtype=np.float32), np.array(y, dtype=np.float32)
 
@@ -93,7 +93,7 @@ test_start = (TRAINING_EXAMPLES + TIMESTEPS) * SAMPLE_GAP
 test_end = test_start + (TEST_EXAMPLES + TIMESTEPS) * SAMPLE_GAP
 train_X, train_y = generate_data(np.sin(np.linspace(0, test_start, TRAINING_EXAMPLES + TIMESTEPS, dtype=np.float32)))
 test_X, test_y = generate_data(
-    np.sin(np.linspace(0, test_start, test_end, TEST_EXAMPLES + TIMESTEPS, dtype=np.float32)))
+    np.sin(np.linspace(test_start, test_end, TEST_EXAMPLES + TIMESTEPS, dtype=np.float32)))
 
 with tf.Session() as sess:
     train(sess, train_X, train_y)
