@@ -1,6 +1,8 @@
-#coding=utf-8
+import numpy as np
+from matplotlib import pyplot as plt
 
-print "Hello World!"
-# for chinese
-print "你好，世界！"
-
+x = np.linspace(-1, 1, 50)
+y = 2*x + 1
+plt.figure()
+plt.plot(y,labels='predictions')
+plt.show()

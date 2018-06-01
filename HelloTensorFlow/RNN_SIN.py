@@ -1,8 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import matplotlib as mpl
-
-mpl.use('Agg')
+mpl.use('TkAgg')
 from matplotlib import pyplot as plt
 
 HIDDEN_SIZE = 30
@@ -83,8 +82,8 @@ def run_eval(sess, test_X, test_y):
     rmse = np.sqrt(((predictions - labels) ** 2).mean(axis=0))
     print "mean square error ", rmse
     plt.figure()
-    plt.plot(predictions, labels='predictions')
-    plt.plot(labels, labels='labels')
+    plt.plot(predictions, label='predictions')
+    plt.plot(labels, label='real_sin')
     plt.legend()
     plt.show()
 
