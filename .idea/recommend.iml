@@ -6,6 +6,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7 (tensorflow)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="tensorflow_cookbook" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />
