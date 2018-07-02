@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "embeddings/Variable:0"
+  metadata_path: "/Users/wanghaoxian/Documents/GitHub/recommend/HelloTensorFlow/log/metadata.tsv"
+}

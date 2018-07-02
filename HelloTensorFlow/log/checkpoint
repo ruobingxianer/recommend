@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/wanghaoxian/Documents/GitHub/recommend/HelloTensorFlow/log/model.ckpt"
+all_model_checkpoint_paths: "/Users/wanghaoxian/Documents/GitHub/recommend/HelloTensorFlow/log/model.ckpt"
